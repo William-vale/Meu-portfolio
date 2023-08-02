@@ -1,0 +1,137 @@
+@import url(style-global.css);
+
+#portfolio {
+    width: 100%;
+    height: 90vh;
+}
+
+#portfolio .container {
+    width: 100%;
+    height: 100%;
+    
+    background: var(--cor-preto);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .container .titulo {
+    width: 96%;
+    height: 18%;
+    padding: 10px;
+}
+
+#portfolio .container .titulo *{
+    color: var(--cor-branca);
+    text-align: center;
+}
+
+#portfolio .container .titulo h2{
+    font-size: var(--fonth1);
+}
+
+#portfolio .container .titulo p{
+    font-size: var(--fonth4);
+}
+
+#portfolio .container .projetos {
+    width: 98%;
+    height: 78%;
+    
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .container .projetos .proj {
+    width: 30%;
+    height: 47%;
+    margin: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--cor-cinza);
+    border-radius: 20px;
+}
+
+#portfolio .container .projetos .proj img {
+    width: /* 70% */ 130px;
+    height: /* 60% */ 114px;
+    border-radius: 10px;
+}
+
+#portfolio .container .projetos .proj .descricao {
+    width: 100%;
+    height: 35%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .container .projetos .proj .descricao a {
+    text-decoration: none;
+    color: var(--cor-preto);
+}
+
+#portfolio .container .projetos .proj .descricao a h5 {
+    font-weight: 500;
+    font-size: var(--fonth5);
+    text-align: center;
+
+    width: 100%;
+    height: 50%;
+}
+
+#portfolio .container .projetos .proj .descricao span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: -25px;
+    height: 50%;
+    width: 100%;
+}
+
+#portfolio .container .projetos .proj .descricao span img {
+    width: 26px;
+    height: 25px;
+    margin: 5px;
+}
+
+@media screen and (max-device-width: 1024px){
+    #portfolio .container .projetos .proj {
+        height: 50%;
+    }
+}
+
+@media screen and (max-device-width: 425px) {
+    #portfolio {
+        height: 143vh;
+    }
+
+    #portfolio .container .titulo {
+        height: 10%;
+    }
+
+    #portfolio .container .projetos {
+        height: 80%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    #portfolio .container .projetos .proj {
+        width: 50%;
+    }
+}

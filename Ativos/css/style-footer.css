@@ -1,0 +1,21 @@
+@import url(style-global.css);
+
+footer {
+    width: 100%;
+    height: 20vh;
+}
+
+footer .container {
+    background: var(--cor-preto);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container p {
+    color: var(--cor-branca);
+}
+
