@@ -1,393 +1,546 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Adicione aqui os links para os arquivos CSS e fontes, se necessário --> 
-        <link rel="stylesheet" href="Ativos/css/style-global.css">
-        <link rel="stylesheet" href="Ativos/css/style-header.css">
-        <link rel="stylesheet" href="Ativos/css/style-section-sobre.css">
-        <link rel="stylesheet" href="Ativos/css/style-servicos.css">
-        <link rel="stylesheet" href="Ativos/css/style-portfolio.css">
-        <link rel="stylesheet" href="Ativos/css/style-contato.css">
-        <link rel="stylesheet" href="Ativos/css/style-footer.css">
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-        
-        <title>Portifólio | William do Vale</title>
-    </head>
-    <body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | William do Vale</title>
 
-    <!-- Cabeçalho -->
-    <header id="inicio">
-        <div class="background">
-            <div class="image"></div>
-            <div class="opacidade"></div>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/color-1.css" />
+
+    <link rel="stylesheet" href="css/color-1.css" class="alternate-style" title="color-1" disabled/>
+    <link rel="stylesheet" href="css/color-2.css" class="alternate-style" title="color-2" disabled/>
+    <link rel="stylesheet" href="css/color-3.css" class="alternate-style" title="color-3" disabled/>
+    <link rel="stylesheet" href="css/color-4.css" class="alternate-style" title="color-4" disabled/>
+    <link rel="stylesheet" href="css/color-5.css" class="alternate-style" title="color-5" disabled/>
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <!-- ======== -->
+
+    <!-- CSS Files Externos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- ======== -->
+  </head>
+  <body class="dark">
+    <!-- Main Container Inicio -->
+    <div class="main-container">
+      <div class="aside">
+        <div class="logo">
+          <a href=""><span>W</span>doVale</a>
         </div>
-        <div class="container">
-            <div class="cabecalho">
-                <div class="menu">
-                    <a href="">Inicio</a>
-                    <a href="#sobre">Sobre Mim</a>
-                    <a href="#servicos">Serviços</a>
-                    <a href="#portfolio">Portfólio</a>
-                    <a href="#contato">Contato</a>
-                </div>
-            </div>
-            <div class="apresentacao">
-                <div class="fundo-foto">
-                    <img src="Ativos/fotos_perfil2.png" alt="">
-                </div>
-                <div class="sobremim">
-                    <h1>William do Vale</h1>
-                </div>
-                <div class="texto-animado">
-                    <span class="animacao-texto">Desenvolvedor Web | </span>
-                    <span class="animacao-texto">Front End | </span>
-                    <span class="animacao-texto">Web e Mobile | HTML5 | CSS3 | JavaScript | Typescript | MySql | ReactJs |</span><br>
-                    <span class="animacao-texto">Cursando Engenharia da Computação</span>
-                </div>
-            </div>
+        <div class="nav-toggler">
+          <span></span>
         </div>
-    </header>
-
-    <!-- Seção "Sobre Mim" -->
-    <section class="sobre">
-        <div class="container">
-            <div class="info">
-                <div class="informacoes" id="sobre">
-                    <div class="info-container" >
-                        <div class="minha-info">
-                            <div class="bloco-info">
-                                <div class="img-tecnologias">
-                                    <div>
-                                        <img src="Ativos/img/javascript.png" alt="" width="40px">
-                                        <img src="Ativos/img/html-5.png" alt="" width="40px">
-                                        <img src="Ativos/img/nodejs.png" alt="" width="60px">
-                                    </div>
-                                    <div>
-                                        <img src="Ativos/img/css-3.png" alt="" width="40px">
-                                        <img src="Ativos/img/react.png" alt="" width="50px">
-                                        <img src="Ativos/img/php.png" alt="" width="40px">
-                                    </div>    
-                                </div>
-                                <div class="info-profissionais">
-                                    <p><strong>Nome: </strong> William do Vale</p>
-                                    <p><strong>Profissão: </strong> Desenvolvedor Front End</p>
-                                    <p><strong>Email: </strong> william.vale123@gmail.com </p>
-                                    <p><strong>Número: </strong> +55 88 99627-3564</p>
-                                </div>
-                            </div>
-                            <div class="info-habilidades">
-                                <div class="habilidade">
-                                    <p>Habilidades</p>
-                                    <span><strong>HTML</strong> 70%</span>
-                                    <div>
-                                        <div class="barra-interna" style="width: 70%;"></div>
-                                    </div>
-                                    <span><strong>CSS</strong> 85%</span>
-                                    <div>
-                                        <div class="barra-interna" style="width: 85%;"></div>
-                                    </div>
-                                    <span><strong>JavaScript</strong> 55%</span>
-                                    <div>
-                                        <div class="barra-interna" style="width: 55%;"></div>
-                                    </div>
-                                    <span><strong>ReactJs</strong> 45%</span>
-                                    <div>
-                                        <div class="barra-interna" style="width: 45%;"></div>
-                                    </div>
-                                    <span><strong>NodeJs</strong> 35%</span>
-                                    <div>
-                                        <div class="barra-interna" style="width: 35%;"></div>
-                                    </div>
-                                    <span><strong>PHP</strong> 20%</span>
-                                    <div>
-                                        <div class="barra-interna" style="width: 20%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sobre-mim">
-                            <h2>Sobre Mim</h2>
-                            <div></div>
-                            <p>
-                                Olá, sou um estudante de Engenharia da Computação apaixonado por tecnologia e inovação. Durante minha jornada acadêmica, tive a oportunidade de vivenciar diversas experiências que moldaram minhas habilidades e aspirações profissionais.
-                            </p><br>
-                            <p>
-                                Antes da faculdade trabalhei como digitador e tive contato com tecnologia que me fez querer explorar o seu potencial transformador. Durante minha graduação, fui agraciado com uma bolsa de Iniciação Acadêmica, o que me permitiu mergulhar na organização de processos dentro da Universidade e pude colaborar com outros estudantes e professores em busca de soluções inovadoras. 
-                            </p><br>
-                            <p>
-                                Além disso, tive a oportunidade de fazer parte da equipe do Aplicativo Aiqfome, trabalhando dentro do sistema para aprimorar a experiência do usuário e contribuindo para o desenvolvimento de uma plataforma que conecta restaurantes e clientes de forma eficiente.
-                            </p><br>
-                            <p>
-                                Ao longo do caminho, me envolvi em projetos pessoais, desenvolvendo aplicativos, pequenos sistemas e sites autônomos. Essa experiência me ensinou muito sobre autonomia, criatividade e a importância de manter-se atualizado com as novas tecnologias.
-                            </p><br>
-                            <p>
-                                Estou entusiasmado e determinado a enfrentar novos desafios, aprender continuamente e crescer como desenvolvedor na indústria da tecnologia. Acredito que a tecnologia é uma ferramenta poderosa para criar mudanças significativas no mundo, e estou ansioso para fazer parte dessa transformação.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção "Serviços" -->
-    <section id="servicos">
-        <div class="container">
-            <div class="serv-container">
-                <div class="row">
-                    <h2>Serviços</h2>
-                    <p>Realizando sonhos com excelência.</p>
-                    <div class="barra"></div>
-                </div>
-                <div class="column">
-                    <div class="col1">
-                        <div class="servicos">
-                            <div class="websites">
-                                <div class="simbolo">
-                                    <div class="interno">
-                                        <div class="int">
-                                            <img src="Ativos/img/icon/website.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="titulo">
-                                    <h3>
-                                        Websites Responsivos
-                                    </h3>
-                                </div>
-                                <div class="descricao">
-                                    <h5>
-                                        Criação de websites que se adaptam a diferentes dispositivos, como desktops, tablets e smartphones.
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="websites">
-                                <div class="simbolo">
-                                    <div class="interno">
-                                        <div class="int">
-                                            <img src="Ativos/img/icon/designer.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="titulo">
-                                    <h3>
-                                        Interfaces de Usuário
-                                    </h3>
-                                </div>
-                                <div class="descricao">
-                                    <h5>
-                                        Design e implementação de interfaces intuitivas e atraentes para melhorar a experiência do usuário.
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="websites">
-                                <div class="simbolo">
-                                    <div class="interno">
-                                        <div class="int">
-                                            <img src="Ativos/img/icon/page.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="titulo">
-                                    <h3>
-                                        Landing Pages
-                                    </h3>
-                                </div>
-                                <div class="descricao">
-                                    <h5>
-                                        Criação de páginas de destino otimizadas para conversões e captação de leads.
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2">
-                        
-                        <div class="servicos">
-                            <div class="websites">
-                                <div class="simbolo">
-                                    <div class="interno">
-                                        <div class="int">
-                                            <img src="Ativos/img/icon/adptação-designer.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="titulo">
-                                    <h3>
-                                        Adaptação de Designs
-                                    </h3>
-                                </div>
-                                <div class="descricao">
-                                    <h5>
-                                        Transformar designs de Photoshop ou Sketch em código HTML/CSS interativo e funcional.
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="websites">
-                                <div class="simbolo">
-                                    <div class="interno">
-                                        <div class="int">
-                                            <img src="Ativos/img/icon/interativo.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="titulo">
-                                    <h3>
-                                        Elementos Interativos
-                                    </h3>
-                                </div>
-                                <div class="descricao">
-                                    <h5>
-                                        Adicionar animações, sliders e outros elementos interativos para tornar o site mais dinâmico.
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="websites">
-                                <div class="simbolo">
-                                    <div class="interno">
-                                        <div class="int">
-                                            <img src="Ativos/img/icon/page.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="titulo">
-                                    <h3>
-                                        Atualização
-                                    </h3>
-                                </div>
-                                <div class="descricao">
-                                    <h5>
-                                        Fornecer suporte contínuo e atualização do código para garantir que o site esteja sempre funcionando corretamente.
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção "Portfolio" -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="titulo">
-                <h2>Portfolio</h2>
-                <p>
-                    Transformando ideias em realidade através do design e da criatividade.
-                </p>
-            </div>
-            <div class="projetos">
-                <div class="proj">
-                    <img src="Ativos/img/projetos/relogio-analogico.png" alt="">
-                    <div class="descricao">
-                        <a href="https://william-vale.github.io/relogio_analogico/" target="_blank">
-                            <h5>Relógio Analógico</h5>
-                        </a>
-                        <span>
-                            <img src="Ativos/img/css-3.png" alt="">
-                            <img src="Ativos/img/html-5.png" alt="">
-                            <img src="Ativos/img/javascript.png" alt="">
-                        </span>
-                    </div>
-                </div>
-                <div class="proj">
-                    <img src="Ativos/img/projetos/site-para-catalogo-filmes.png" alt="">
-                    <div class="descricao">
-                        <a href="https://william-vale.github.io/tec_web/" target="_blank">
-                            <h5>Site Catálogo Filmes</h5>
-                        </a>
-                        <span>
-                            <img src="Ativos/img/css-3.png" alt="">
-                            <img src="Ativos/img/html-5.png" alt="">
-                        </span>
-                    </div>
-                </div>
-                <div class="proj">
-                    <img src="Ativos/img/projetos/clone-netflix.png" alt="">
-                    <div class="descricao">
-                        <a href="https://william-vale.github.io/interface_netflix/" target="_blank">
-                            <h5>Clone Netflix</h5>
-                        </a>
-                        <span>
-                            <img src="Ativos/img/css-3.png" alt="">
-                            <img src="Ativos/img/html-5.png" alt="">
-                            <img src="Ativos/img/javascript.png" alt="">
-                        </span>
-                    </div>
-                </div>
-                <div class="proj">
-                    <img src="Ativos/img/projetos/site-singela-cancao.png" alt="">
-                    <div class="descricao">
-                        <a href="https://william-vale.github.io/LandingPage-SingelaCancao/" target="_blank">
-                            <h5>Site Singela Canção</h5>
-                        </a>
-                        <span>
-                            <img src="Ativos/img/css-3.png" alt="">
-                            <img src="Ativos/img/html-5.png" alt="">
-                            <img src="Ativos/img/javascript.png" alt="">
-                        </span>
-                    </div>
-                </div>
-                <div class="proj">
-                    <img src="Ativos/img/projetos/clone-instagram.png" alt="">
-                    <div class="descricao">
-                        <a href="https://william-vale.github.io/Recriando-Instagram/" target="_blank">
-                            <h5>Clone Instagram</h5>
-                        </a>
-                        <span>
-                            <img src="Ativos/img/css-3.png" alt="">
-                            <img src="Ativos/img/html-5.png" alt="">
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção "Educação" -->
-    <section id="educacao" style="display: none;">
-        <h2>Educação</h2>
-        <p>
-        [Informe sua formação acadêmica, cursos relevantes e outras qualificações. Inclua o nome da instituição, o curso e o período de estudo.]
-        </p>
-    </section>
-
-    <!-- Seção "Habilidades" -->
-    <section id="habilidades" style="display: none;">
-        <h2>Habilidades</h2>
-        <ul>
-        <li>[Habilidade 1]</li>
-        <li>[Habilidade 2]</li>
-        <li>[Habilidade 3]</li>
-        <!-- Adicione mais habilidades conforme necessário -->
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about" ><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#services" ><i class="fa fa-list"></i> Services</a>
+          </li>
+          <li>
+            <a href="#portfolio" ><i class="fa fa-briefcase"></i> Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" ><i class="fa fa-comments"></i> Contact</a>
+          </li>
         </ul>
-    </section>
-
-    <!-- Seção "Contato" -->
-    <section id="contato">
-        <div class="container">
-            <h2>Contato</h2>
-            <h5>Ficarei feliz em ouvir sua história e colaborar em novos projetos. Vamos trabalhar juntos para alcançar resultados incríveis!</h5>
-            <div class="redes-sociais">
-                <a href="https://api.whatsapp.com/send?phone=+5588996273564" target="_blank">
-                    <img src="Ativos/img/redes sociais/whatsapp-icon.png" alt="">
-                </a>
-                <a href="https://www.instagram.com/compinterativa/" target="_blank">
-                    <img src="Ativos/img/redes sociais/instagram-icon.png" alt="">
-                </a>
+      </div>
+      <div class="main-content">
+        <!-- Home Section Start -->
+        <div class="home active section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, my name is <span class="name">William do Vale</span>
+                </h3>
+                <h3 class="my-profession">
+                    I'm a developer <span class="typing">Developer Front End</span>
+                </h3>
+                <p>
+                  I've been a programmer for 5 years, with experience in Front
+                  End development and web design, mostly in personal projects,
+                  among other qualifications...
+                </p>
+                <a href="#" class="btn">Download CV</a>
+              </div>
+              <div class="home-img padd-15">
+                <img src="images/img-perfil.png" alt="Foto Perfil" />
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+        <!-- Home Section Finish -->
 
-    <!-- Rodapé -->
-    <footer>
-        <div class="container">
-            <p>Copyright © William do Vale. Todos os direitos reservados.</p>
+        <!-- About Section Start -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>I'm William do Vale and <span>Web Developer</span></h3>
+                    <p>
+                      I am a highly adaptable individual, capable of diving into
+                      new environments and challenges with ease. My passion for
+                      learning is an essential part of who I am, and I am
+                      constantly seeking new opportunities to broaden my
+                      horizons and acquire knowledge. I believe that the
+                      combination of my adaptability and eagerness to learn
+                      enables me to confidently tackle any situation that
+                      arises. I am a Front-End Web Developer (HTML 5 | CSS 3 |
+                      Javascript | TypeScript | NodeJs | React and
+                      React-Native).
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>01 ago 1991</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age : <span>33</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Website : <span>www.domain.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>william.vale123@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>+55 88 996273564</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Tianguá - CE</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                        <div class="skill-item padd-15">
+                            <h5>CSS</h5>
+                            <div class="progress">
+                                <div class="progress-in" style="width: 76%;"></div>
+                                <div class="skill-percent">76%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                            <h5>JS</h5>
+                            <div class="progress">
+                                <div class="progress-in" style="width: 70%;"></div>
+                                <div class="skill-percent">70%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                            <h5>HTML</h5>
+                            <div class="progress">
+                                <div class="progress-in" style="width: 90%;"></div>
+                                <div class="skill-percent">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                            <h5>PHP</h5>
+                            <div class="progress">
+                                <div class="progress-in" style="width: 30%;"></div>
+                                <div class="skill-percent">30%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                            <h5>Python</h5>
+                            <div class="progress">
+                                <div class="progress-in" style="width: 50%;"></div>
+                                <div class="skill-percent">50%</div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row" style="width: 100%;">
+                    <div class="education padd-15">
+                        <h3 class="title">Education</h3>
+                        <div class="row">
+                            <div class="timeline-box padd-15">
+                                <div class="timeline shadow-dark">
+                                    <!-- Timeline item Inicio-->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2020 - 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">
+                                            Aiqfome LTDA, food delivery app
+                                        </h4>
+                                        <p class="timeline-text">I worked in the Administrative and IT departments.
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2023 - 
+                                        </h3>
+                                        <h4 class="timeline-title">
+                                            IT Team of Colégio Santa Maria - Main Campus, Ceará - Tianguá
+                                        </h4>
+                                        <p class="timeline-text">I work in the IT department and I am the head of the sector at Colégio Matriz.</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2016 - 
+                                        </h3>
+                                        <h4 class="timeline-title">
+                                            Currently pursuing a degree in Computer
+                                            Engineering
+                                        </h4>
+                                        <p class="timeline-text">Federal University of Ceará - Sobral</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2007 - 2009 
+                                        </h3>
+                                        <h4 class="timeline-title">
+                                            High school
+                                        </h4>
+                                        <p class="timeline-text">Colégio Maria Marina - Guaraciaba do
+                                            Norte / CE
+                                        </p>
+                                    </div>
+                                    <!-- Timeline item Fim-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience padd-15">
+                        <h3 class="title">Experience</h3>
+                        <div class="row">
+                            <div class="timeline-box padd-15">
+                                <div class="timeline shadow-dark">
+                                    <!-- Timeline item Inicio-->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2020 - 2021 
+                                        </h3>
+                                        <h4 class="timeline-title">
+                                            Aiqfome LTDA, food delivery app
+                                        </h4>
+                                        <p class="timeline-text">I worked in the Administrative and IT departments.
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2023 - 
+                                        </h3>
+                                        <h4 class="timeline-title">
+                                            IT Team of Colégio Santa Maria - Main Campus, Ceará - Tianguá
+                                        </h4>
+                                        <p class="timeline-text">I work in the IT department and I am the head of the sector at Colégio Matriz.</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2016 - 
+                                        </h3>
+                                        <h4 class="timeline-title">
+                                            Currently pursuing a degree in Computer
+                                            Engineering
+                                        </h4>
+                                        <p class="timeline-text">Federal University of Ceará - Sobral</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2007 - 2009 
+                                        </h3>
+                                        <h4 class="timeline-title">
+                                            High school
+                                        </h4>
+                                        <p class="timeline-text">Colégio Maria Marina - Guaraciaba do
+                                            Norte / CE
+                                        </p>
+                                    </div>
+                                    <!-- Timeline item Fim-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About Section Finish -->
+
+        <!-- Services Section Inicio -->
+        <section class="service section" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Services</h2>
+                    </div>
+                </div>
+                <div class="row service-row" >
+                    <!-- Service item Start -->
+                    <div class="services-item padd-15">
+                        <div class="services-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-palette"></i>
+                            </div>
+                            <h4>Web Designer</h4>
+                            <p>I create prototypes of the application's functionality or website to facilitate and understand the entire construction process.</p>
+                        </div>
+                    </div>
+
+                    <div class="services-item padd-15">
+                        <div class="services-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <h4>Web Developer</h4>
+                            <p>We create dynamic websites with advanced technology, well-suited to meet today's demands.</p>
+                        </div>
+                    </div>
+
+                    <div class="services-item padd-15">
+                        <div class="services-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-mobile-alt"></i>
+                            </div>
+                            <h4>Mobile Developer</h4>
+                            <p>Alongside web development, we build mobile applications using new technologies and paying great attention to detail.</p>
+                        </div>
+                    </div>
+
+                    <div class="services-item padd-15">
+                        <div class="services-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <h4>Systems for Various Purposes</h4>
+                            <p>We develop complete and robust systems for your company with guaranteed functionality and ongoing updates.</p>
+                        </div>
+                    </div>
+
+                    <div class="services-item padd-15">
+                        <div class="services-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-bullhorn"></i>
+                            </div>
+                            <h4>Chatbots for Your Business</h4>
+                            <p>We create chatbots to streamline your communication with potential clients.</p>
+                        </div>
+                    </div>
+                    <!-- Service item Fim -->
+                </div>
+            </div>
+        </section>
+        <!-- Services Section Fim -->
+        
+        <!-- Portfolio Section Inicio -->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-heading padd-15">
+                        <h2>My Lasts Projects: </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Portfolio Item Inicio -->
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/GIF/projeto1.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/GIF/projeto2.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/GIF/projeto3.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/GIF/projeto4.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/GIF/projeto5.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/GIF/projeto6.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item Fim -->
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section Fim -->
+
+        <!-- Contact Section Inicio -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+                <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+                <div class="row">
+                    <!-- Contact info intem inicio -->
+                    <div class="contact-info-item padd-15">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <h4>Call Us On</h4>
+                        <p>+55 88 99627-3564</p>
+                    </div>
+                    
+                    <div class="contact-info-item padd-15">
+                        <div class="icon">
+                            <i class="fa fa-marker"></i>
+                        </div>
+                        <h4>Office</h4>
+                        <p>Brasil - Ceará</p>
+                    </div>
+
+                    <div class="contact-info-item padd-15">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>wvm.anu@gmail.com</p>
+                    </div>
+
+                    <div class="contact-info-item padd-15">
+                        <div class="icon">
+                            <i class="fa fa-globe-europe"></i>
+                        </div>
+                        <h4>Website</h4>
+                        <p>www.wvm.com.br</p>
+                    </div>
+                    <!-- Contact info intem fim -->
+                </div>
+                <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                <!-- Contact Form Inicio -->
+                <div class="row">
+                    <div class="contact-form padd-15">
+                        <div class="row">
+                            <!-- Formulário Inicio -->
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-item col-6 padd-15">
+                                <button type="submit" class="btn">Send Message</button>
+                            </div>
+                            <!-- Formulário Fim -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form Fim -->
+            </div>
+        </section>
+        <!-- Contact Section Fim -->
+      </div>
+      <!-- Main content Fim -->
+    </div>
+    <!-- Main Container Fim -->
+
+    <!-- Style Switcher Inicio -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fa fa-cog fa-spin"></i>
         </div>
-    </footer>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- Style Switcher fim -->
 
-    <script src="Ativos/js/script-header.js"></script>
-    </body>
+    <!-- Javascript Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+    <!-- =============== -->
+  </body>
 </html>
